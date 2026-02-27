@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ventajas y Desventajas</title>
+
+<!-- Fuentes -->
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #4a235a, #1f3a93);
+    color: white;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #f1c40f;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.contenedor {
+    width: 85%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(255,255,255,0.1);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.6s all ease;
+    min-height: 150px;
+}
+
+.card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.texto {
+    flex: 1;
+    max-width: 600px;
+}
+
+h2 {
+    color: #f1c40f;
+    margin: 0 0 10px 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+.ventaja {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.desventaja {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+button {
+    display: block;
+    margin: 40px auto 60px auto;
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #f1c40f;
+    color: #2c3e50;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.autores {
+    text-align: center;
+    margin: 60px 0;
+    background-color: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.autores h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #f1c40f;
+    margin-bottom: 10px;
+}
+
+.autores p {
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+}
+
+.autores .nombre1 { color: #ffffff; }
+.autores .nombre2 { color: #ffffff; }
+</style>
+</head>
+
+<body>
+
+<h1>VENTAJAS Y DESVENTAJAS</h1>
+
+<div class="contenedor">
+
+<!-- 1. MOBINCUBE -->
+<div class="card">
+  <img src="mobincube.jpg" alt="Mobincube">
+  <div class="texto">
+    <h2>MOBINCUBE</h2>
+    <ul>
+      <li class="ventaja">Gratis y sin programar</li>
+      <li class="ventaja">Rápido para proyectos escolares</li>
+      <li class="ventaja">Plantillas listas</li>
+      <li class="desventaja">Poca personalización</li>
+      <li class="desventaja">Funciones limitadas</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. ANDROMO -->
+<div class="card">
+  <img src="andromo.jpg" alt="Andromo">
+  <div class="texto">
+    <h2>ANDROMO</h2>
+    <ul>
+      <li class="ventaja">Publicación directa en Google Play</li>
+      <li class="ventaja">Interfaz fácil de usar</li>
+      <li class="ventaja">Opciones de monetización</li>
+      <li class="desventaja">Solo Android</li>
+      <li class="desventaja">Poca personalización</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 3. APPY PIE -->
+<div class="card">
+  <img src="appy.jpg" alt="Appy Pie">
+  <div class="texto">
+    <h2>APPY PIE</h2>
+    <ul>
+      <li class="ventaja">Arrastrar y soltar</li>
+      <li class="ventaja">Notificaciones push</li>
+      <li class="ventaja">Integración con redes sociales</li>
+      <li class="desventaja">Funciones avanzadas requieren pago</li>
+      <li class="desventaja">Limitado para apps complejas</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 4. GLIDE -->
+<div class="card">
+  <img src="glide.jpg" alt="Glide">
+  <div class="texto">
+    <h2>GLIDE</h2>
+    <ul>
+      <li class="ventaja">Convierte hojas de cálculo en apps</li>
+      <li class="ventaja">Fácil y rápido</li>
+      <li class="desventaja">Limitado para apps avanzadas</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 5. THUNKABLE -->
+<div class="card">
+  <img src="thunkable.jpg" alt="Thunkable">
+  <div class="texto">
+    <h2>THUNKABLE</h2>
+    <ul>
+      <li class="ventaja">Bloques estilo Scratch</li>
+      <li class="ventaja">Apps nativas Android e iOS</li>
+      <li class="desventaja">Interfaz compleja al inicio</li>
+      <li class="desventaja">Funciones avanzadas requieren práctica</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 6. ADALO -->
+<div class="card">
+  <img src="adalo.jpg" alt="Adalo">
+  <div class="texto">
+    <h2>ADALO</h2>
+    <ul>
+      <li class="ventaja">Diseño visual de apps</li>
+      <li class="ventaja">Bases de datos integradas</li>
+      <li class="desventaja">Funciones avanzadas requieren pago</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 7. BUBBLE -->
+<div class="card">
+  <img src="bubble.jpg" alt="Bubble">
+  <div class="texto">
+    <h2>BUBBLE</h2>
+    <ul>
+      <li class="ventaja">Apps web avanzadas</li>
+      <li class="ventaja">Usuarios y base de datos integrados</li>
+      <li class="desventaja">Requiere aprendizaje más profundo</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 8. APPSHEET -->
+<div class="card">
+  <img src="appsheet.jpg" alt="AppSheet">
+  <div class="texto">
+    <h2>APPSHEET</h2>
+    <ul>
+      <li class="ventaja">Convierte datos en apps móviles</li>
+      <li class="ventaja">Automatiza procesos</li>
+      <li class="desventaja">Funciones avanzadas requieren pago</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 9. BUILDFIRE -->
+<div class="card">
+  <img src="buildfire.jpg" alt="BuildFire">
+  <div class="texto">
+    <h2>BUILDFIRE</h2>
+    <ul>
+      <li class="ventaja">Apps personalizadas mediante módulos</li>
+      <li class="ventaja">Adaptable a necesidades</li>
+      <li class="desventaja">Funciones avanzadas requieren pago</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 10. SOFTR -->
+<div class="card">
+  <img src="softr.jpg" alt="Softr">
+  <div class="texto">
+    <h2>SOFTR</h2>
+    <ul>
+      <li class="ventaja">Apps web conectadas a bases de datos</li>
+      <li class="ventaja">Ideal para portales organizativos</li>
+      <li class="desventaja">Funciones avanzadas requieren pago</li>
+    </ul>
+  </div>
+</div>
+
+</div>
+
+<!-- Botón volver -->
+<button onclick="location.href='Aplicaciones.html'">Volver a la página principal</button>
+
+<!-- Autores -->
+<div class="autores">
+  <h2>Diseño y desarrollo por</h2>
+  <p><span class="nombre1">Briana Janetzy Garcia Alavez</span> & <span class="nombre2">Flores Andrade Rodrigo</span></p>
+</div>
+
+<!-- Animación scroll -->
+<script>
+const cards = document.querySelectorAll('.card');
+window.addEventListener('scroll', () => {
+  const trigger = window.innerHeight / 1.2;
+  cards.forEach(card => {
+    const cardTop = card.getBoundingClientRect().top;
+    if(cardTop < trigger) card.classList.add('visible');
+  });
+});
+
+window.addEventListener('load', () => {
+  cards.forEach(card => {
+    const cardTop = card.getBoundingClientRect().top;
+    if(cardTop < window.innerHeight) card.classList.add('visible');
+  });
+});
+</script>
+
+</body>
+</html>
